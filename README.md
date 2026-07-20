@@ -1,16 +1,60 @@
-# React + Vite
+# To-Do — To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A fully responsive, feature-rich To-Do List application built with **React** and **Tailwind CSS**. Manage your daily tasks efficiently with priority levels, search, filter, dark mode, and local storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[View Live Demo](https://todo-application.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Desktop View
+
+![Desktop Screenshot](./public/Images/full%20screen.png)
+
+### Mobile View
+
+![Mobile Screenshot](./public/Images/mobile%201st.png)
+![Mobile Screenshot](./public/Images/mobil%202nd.png)
+
+### Dark Mode
+
+---
+
+## Features
+
+### Core Features
+
+- Add new tasks with priority (Low, Medium, High)
+- Edit existing tasks
+- Delete tasks with confirmation
+- Mark tasks as complete/pending
+- Search tasks by title
+- Filter tasks (All, Pending, Completed)
+- Local Storage — data persists after refresh
+- Fully responsive — works on all devices
+
+### Bonus Features
+
+- Dark/Light Mode toggle
+- Priority badges (🔴 High, 🟡 Medium, 🟢 Low)
+- Clear all completed tasks with one click
+- Task statistics (Total, Completed, Pending)
+
+---
+
+## Tech Stack
+
+| Technology       | Purpose    |
+| ---------------- | ---------- |
+| **React**        | UI Library |
+| **Tailwind CSS** | Styling    |
+| **React Icons**  | Icons      |
+| **Vite**         | Build Tool |
+| **Vercel**       | Deployment |
+
+---
