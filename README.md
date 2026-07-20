@@ -6,7 +6,7 @@ A fully responsive, feature-rich To-Do List application built with **React** and
 
 ## Live Demo
 
-[View Live Demo](https://todo-application.vercel.app/)
+[View Live Demo](https://todo-nu-lilac.vercel.app/)
 
 ---
 
